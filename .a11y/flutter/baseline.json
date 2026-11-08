@@ -6,9 +6,9 @@
     "static": "0.1.0",
     "runtime": "0.1.0"
   },
-  "matcher_version": "1",
+  "matcher_version": "2",
   "created_at": "2026-11-08T20:50:20.596134Z",
-  "updated_at": "2026-11-08T20:50:20.596134Z",
+  "updated_at": "2026-11-08T21:03:17.248818Z",
   "summary": {
     "finding_count": 236,
     "by_severity": {
@@ -1263,7 +1263,7 @@
       "message_hash": "sha256:59ca830cbff9be20"
     },
     {
-      "id": "sha256:d3dcae2841f0a9d9446c6057e78d1146a6612db0e24871d30325bdc7f348acee",
+      "id": "sha256:c82e59a33a874b643cbc2dbc9f5cb516f38d3ee5302467278912da3055173059",
       "rule_id": "flutter/runtime/duplicate-interactive-label",
       "layer": "runtime",
       "wcag_criterion": "2.4.6",
@@ -1272,11 +1272,11 @@
       "file_path": "lib/src/view/clock/clock_tool_screen.dart",
       "line": 207,
       "column": 26,
-      "message_hash": "sha256:015a5f41f71e924c",
+      "message_hash": "sha256:1993afd6406fecee",
       "screen_id": "tools/clock@android"
     },
     {
-      "id": "sha256:60c2c8e7d887b8c623a46b7db5f4338e0e4a1cc2c733ba93564ca291487f6326",
+      "id": "sha256:2d4f645dcfbc0945f20343d81142d800132d7fb2bc6d3b2fc6016150ca042985",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1285,7 +1285,7 @@
       "file_path": "lib/src/view/coordinate_training/coordinate_training_screen.dart",
       "line": 37,
       "column": 16,
-      "message_hash": "sha256:fa46d61ebfb6a478",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "tools/coordinate-training@android"
     },
     {
@@ -1373,7 +1373,7 @@
       "message_hash": "sha256:5e1a22e09639183c"
     },
     {
-      "id": "sha256:6043f59ed240cd5148e4e539c8df8f3097abcea514457e4a2ec17e63037be5f8",
+      "id": "sha256:0d8b344bdf379e5ae5c9343a646fb5f3c5a1615a31e740db734426b9aae58734",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1382,11 +1382,11 @@
       "file_path": "lib/src/view/home/home_tab_screen.dart",
       "line": 645,
       "column": 11,
-      "message_hash": "sha256:30dd4528a8dc1079",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "home@android"
     },
     {
-      "id": "sha256:89e44f00c063d992b52049770ef320106d41d59112ee02f870841155d23a5bcb",
+      "id": "sha256:8bf3c0b53bb56bb04f4a150ffae43ebd51843c4bdc4d7f3558a43fd652469b99",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1395,7 +1395,7 @@
       "file_path": "lib/src/view/home/home_tab_screen.dart",
       "line": 645,
       "column": 11,
-      "message_hash": "sha256:30dd4528a8dc1079",
+      "message_hash": "sha256:7d1f5a680820833f",
       "occurrence_key": "1",
       "screen_id": "home@ios"
     },
@@ -1424,7 +1424,7 @@
       "message_hash": "sha256:5e1a22e09639183c"
     },
     {
-      "id": "sha256:5ffdaaf2d1413eccd3a204b73f4b7c70515ef6a6b34bad997eef75753b956ef6",
+      "id": "sha256:c4b6b9f4433271796c3444babb44973232d72342871745426e11a5a0090c1038",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1433,7 +1433,7 @@
       "file_path": "lib/src/view/learn/learn_tab_screen.dart",
       "line": 73,
       "column": 18,
-      "message_hash": "sha256:56d92ce11222bd4d",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "learn@android"
     },
     {
@@ -1663,7 +1663,7 @@
       "message_hash": "sha256:a8c97037e805be16"
     },
     {
-      "id": "sha256:5c300b05c4d01ec3a083003aab96969f7e9e09365cbc97a5c06feffd28b63337",
+      "id": "sha256:0a8a384f00feb9d9bb1e534edce7a8cddebce3dc47fa4cad05fb8c5395138712",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1672,11 +1672,11 @@
       "file_path": "lib/src/view/puzzle/puzzle_tab_screen.dart",
       "line": 75,
       "column": 18,
-      "message_hash": "sha256:9a2d8721c2a4130a",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "puzzles@android"
     },
     {
-      "id": "sha256:677bb74097bd592284b67d66b904615eadedf77e547944c003c03ea7a91005f8",
+      "id": "sha256:433d28449f0afdf69d8e0a06689b252b7d8d6cf5d5c42c635aa918b882a16a91",
       "rule_id": "flutter/runtime/interactive-missing-role",
       "layer": "runtime",
       "wcag_criterion": "4.1.2",
@@ -1685,11 +1685,11 @@
       "file_path": "lib/src/view/puzzle/puzzle_tab_screen.dart",
       "line": 155,
       "column": 15,
-      "message_hash": "sha256:85de67f8334bcd7c",
+      "message_hash": "sha256:1246417013324ea8",
       "screen_id": "puzzles@android"
     },
     {
-      "id": "sha256:a477085c80b13fb64dbd7619ba42ce9d36b6d3d88dcafd14f11b32be05699df8",
+      "id": "sha256:fe14d87b67e258e862591ee3445798e7a09f01b3a5105c9e51293eb8a1e12f00",
       "rule_id": "flutter/runtime/interactive-missing-role",
       "layer": "runtime",
       "wcag_criterion": "4.1.2",
@@ -1698,7 +1698,7 @@
       "file_path": "lib/src/view/puzzle/puzzle_tab_screen.dart",
       "line": 155,
       "column": 15,
-      "message_hash": "sha256:85de67f8334bcd7c",
+      "message_hash": "sha256:1246417013324ea8",
       "occurrence_key": "1",
       "screen_id": "puzzles@ios"
     },
@@ -1776,7 +1776,7 @@
       "message_hash": "sha256:5e1a22e09639183c"
     },
     {
-      "id": "sha256:6f5e1daa56f6c73b8ed045a653f750351c978dd4e090b034631e0202ecddd65f",
+      "id": "sha256:2a36fb0cec95fa3a263af6a177bd2160d71c0c5a98ee8f23386d53d1c93cf442",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1785,11 +1785,11 @@
       "file_path": "lib/src/view/settings/board_settings_screen.dart",
       "line": 85,
       "column": 16,
-      "message_hash": "sha256:d3fbab1c0dcdc8d7",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:357fa3f0a1db8100f27a98f1682ef9def727b0f473f06df0c8e8a8fed66fbdce",
+      "id": "sha256:35b8c066f5a8e86c283ee9cba765c9ef041048a487e22e0a10edb768a5c0edd5",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1798,11 +1798,11 @@
       "file_path": "lib/src/view/settings/settings_screen.dart",
       "line": 51,
       "column": 37,
-      "message_hash": "sha256:b7746caede21acc0",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "settings@android"
     },
     {
-      "id": "sha256:bcef6c7297252bae2280f111af7d8e9d47d56cf8de85c9e293fdb6cd03a4705c",
+      "id": "sha256:a136004395fe962f20e778a750549ac95d163b12fce3a9880f35210b79200397",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1811,7 +1811,7 @@
       "file_path": "lib/src/view/settings/settings_screen.dart",
       "line": 51,
       "column": 37,
-      "message_hash": "sha256:b7746caede21acc0",
+      "message_hash": "sha256:7d1f5a680820833f",
       "occurrence_key": "1",
       "screen_id": "settings@ios"
     },
@@ -1907,7 +1907,7 @@
       "screen_id": "settings@ios"
     },
     {
-      "id": "sha256:3b2a37743115f8fdab0f486155f5492d5cdbc434047bafe0c3a9ea2325cd733c",
+      "id": "sha256:479f9d0a1bc1059ea59bffa60319a7e98f3fe9b31b518cea381d8c7423ef01cc",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1916,11 +1916,11 @@
       "file_path": "lib/src/view/settings/sound_settings_screen.dart",
       "line": 21,
       "column": 37,
-      "message_hash": "sha256:bee811bb2b07d12c",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "settings/sound@android"
     },
     {
-      "id": "sha256:97761e7a25b075c0bc81a58467cdc6cee359adccfc43f123952828a5b447d6cc",
+      "id": "sha256:ef2cf95acf2a4a76c508783f81f1c104257760b955d97fe3a7e877a8cb297baa",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -1929,7 +1929,7 @@
       "file_path": "lib/src/view/settings/theme_settings_screen.dart",
       "line": 32,
       "column": 37,
-      "message_hash": "sha256:722faa01cbcc67f2",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "settings/theme@android"
     },
     {
@@ -1993,7 +1993,7 @@
       "message_hash": "sha256:5e1a22e09639183c"
     },
     {
-      "id": "sha256:11c557b280b49781acd3232243982e7cf4d221eda4d75a7e0f744cfe3516b0e1",
+      "id": "sha256:389959e06be008f92f207f19cb31233016659a1e55b044fc7b5076f74a16feb0",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -2002,7 +2002,7 @@
       "file_path": "lib/src/view/watch/watch_tab_screen.dart",
       "line": 94,
       "column": 20,
-      "message_hash": "sha256:165fa47d0b0c9759",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "watch@android"
     },
     {
@@ -2019,7 +2019,7 @@
       "screen_id": "watch@ios"
     },
     {
-      "id": "sha256:129bf01c537f2f3817def396c86e01a5881ff9133323f6a1da499b884c0613d0",
+      "id": "sha256:712c0a9aa54f30245f65a5e6226ebfc43dc4d3adb8b3dfc09ba4edaac8483368",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2028,11 +2028,11 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:813b285d01321e2b",
+      "message_hash": "sha256:782678a9b2f10c53",
       "screen_id": "tools/coordinate-training@ios"
     },
     {
-      "id": "sha256:31b3a789ec24b14830f3ac18e0b140f95f9014cc43017ce97e08c2a8b0c3b057",
+      "id": "sha256:9179ba4584413b8b102b5403eaa84fabdfac5c3df7360006d10fc6913f55397b",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2041,12 +2041,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:43e53a5c9c0ea9d9",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "1",
       "screen_id": "tools/board-editor@ios"
     },
     {
-      "id": "sha256:66b6f68b6ec6a0da023f275fc43003dd5f3399d7528db41456f4ec1539065e8c",
+      "id": "sha256:be4119f0e429da1e64a58b549e0e0efa8cac508020f74f6e59bd22c62e5a016e",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2055,12 +2055,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:db663d2b51fe48ae",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "2",
       "screen_id": "tools/board-editor@ios"
     },
     {
-      "id": "sha256:db6bd746309a6748dbe42a05c33a799592b1b8ff2af88ba2e2807ced1275c97c",
+      "id": "sha256:86243206fcc4c493865ac683ad833efe0e2cee0058e5889b80560f6b625e8957",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2069,12 +2069,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:07f05eaae30205da",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "3",
       "screen_id": "tools/board-editor@ios"
     },
     {
-      "id": "sha256:9f96fd2c216adbb231e20ea113eb76f5e0f11618012def5a136a394b00aaa7c5",
+      "id": "sha256:6f02622022c66a5aa20119165f356cbc7a82297ed85de2f9efaef9ce88170e0a",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2083,12 +2083,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:a99bb3b3cf9f6c0e",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "4",
       "screen_id": "tools/board-editor@ios"
     },
     {
-      "id": "sha256:508d1d586fdb9f36daa75dc2c0be07df1d732520e8c2c0a4b7189f1b4330cef7",
+      "id": "sha256:3ec900abc757e5b902ec78649fd354d78764f144e41b70ce064c6f2c1bc1b9aa",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2097,12 +2097,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 530,
       "column": 14,
-      "message_hash": "sha256:a99bb3b3cf9f6c0e",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "5",
       "screen_id": "tools/coordinate-training@ios"
     },
     {
-      "id": "sha256:367529008c5529d367af258f3657288a7ae24562b354a2b00694980174de7061",
+      "id": "sha256:206da389b03b1f9447f2d7036ea8bd041bafa94ed4bb518a3805aafbef6e6cd6",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2111,11 +2111,11 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:813b285d01321e2b",
+      "message_hash": "sha256:782678a9b2f10c53",
       "screen_id": "tools/coordinate-training@android"
     },
     {
-      "id": "sha256:9a4750b55ba552ef527d18f89eb0265632bf4dde33c50c04e73426a3f13bd2ba",
+      "id": "sha256:9ac7e7c68c0977d09ccf3c857981c341b6f21fd3aa75cdc529ca0568f3e27d38",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2124,12 +2124,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:43e53a5c9c0ea9d9",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "1",
       "screen_id": "tools/board-editor@android"
     },
     {
-      "id": "sha256:cb6ac1109837517dea56eb0808cd8d8361c38b60e29a91e150875b1009be58f7",
+      "id": "sha256:37ab7e06c5a0e0dcc2e3bdec15580e944cc3f7fde912f7baa7c2a08bb4e65c86",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2138,12 +2138,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:db663d2b51fe48ae",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "2",
       "screen_id": "tools/board-editor@android"
     },
     {
-      "id": "sha256:611f56d67f494077d1d46baf025a8b07e36d3c73df4c9e1fab16e6d7112e3dcc",
+      "id": "sha256:a876daab7e6c9eb5a070160c7e2936dde73a6b0e65d67c058fd2d9182ce65ae9",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2152,12 +2152,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:07f05eaae30205da",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "3",
       "screen_id": "tools/board-editor@android"
     },
     {
-      "id": "sha256:7b807e0ed33fd41fe68aac5b6a5ee9fc6e7727947759d446e7cf4433935ab4b3",
+      "id": "sha256:1277731b40128c6f31860bd62dca82bbd8a7ea963bc33655993ddc68c16dcaa0",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2166,12 +2166,12 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:a99bb3b3cf9f6c0e",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "4",
       "screen_id": "tools/board-editor@android"
     },
     {
-      "id": "sha256:0270f6e61a97ed6dfb632578393d537092fad9bd97ce4ae5e50d4a1f2c70074c",
+      "id": "sha256:d5c97b536c6475a63cb527d71a0d9d8e0f77b85b5c04c1c72427d64576c4facc",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2180,7 +2180,7 @@
       "file_path": "lib/src/widgets/bottom_bar.dart",
       "line": 596,
       "column": 12,
-      "message_hash": "sha256:a99bb3b3cf9f6c0e",
+      "message_hash": "sha256:782678a9b2f10c53",
       "occurrence_key": "5",
       "screen_id": "tools/coordinate-training@android"
     },
@@ -2388,7 +2388,7 @@
       "message_hash": "sha256:59ca830cbff9be20"
     },
     {
-      "id": "sha256:82c8755fe6b4d23f32c01ab79e186f37abe50379c900703c1de38dd9e5d85bac",
+      "id": "sha256:51b678dd204046dfb53664fdb56d9ca950777804cc4a8878001efa2c9d141fe0",
       "rule_id": "flutter/runtime/no-heading-on-screen",
       "layer": "runtime",
       "wcag_criterion": "1.3.1",
@@ -2397,7 +2397,7 @@
       "file_path": "lib/src/widgets/misc.dart",
       "line": 11,
       "column": 17,
-      "message_hash": "sha256:167c73979a7559fd",
+      "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "more@android"
     },
     {
@@ -2473,7 +2473,7 @@
       "message_hash": "sha256:da987e885aaf9b6a"
     },
     {
-      "id": "sha256:7a1a258e27bbfffb1533c859c5a6367c9c832ea4a5feb2da6eb29731290a48c6",
+      "id": "sha256:c4cb7a804bc87011a944340424cef04c51b1cbaac221104b03a677b2edbdb3e1",
       "rule_id": "flutter/static/image-missing-label",
       "layer": "static",
       "wcag_criterion": "1.1.1",
@@ -2482,7 +2482,7 @@
       "file_path": "lib/src/widgets/server_outage_display.dart",
       "line": 45,
       "column": 13,
-      "message_hash": "sha256:b2012473da323b2d"
+      "message_hash": "sha256:7227c0f8e4a8d772"
     },
     {
       "id": "sha256:b018dcdc933826122cc23389f72c698733e4f0f72c41cc249cc716610370a328",
@@ -2533,7 +2533,7 @@
       "message_hash": "sha256:e7342d47422a2db6"
     },
     {
-      "id": "sha256:14625267ee4dc3e195163821f97b7a320f6569e64491721852e25b8e67cc33af",
+      "id": "sha256:24ca3145925c7543ff44a5ad61ee997917b5cd0da9907944454fbe8666ea7667",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2542,11 +2542,11 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:fb29c7c2054b60fc",
+      "message_hash": "sha256:c5d25a0e0be5c49b",
       "screen_id": "settings/theme@android"
     },
     {
-      "id": "sha256:09eba0f344b8a04e7ac31dc74c402ac7b80e3b45ba50b67b15a37f29c8b4ab0b",
+      "id": "sha256:813b8bbe6a78dbe7bc0dd8b33245ff163a14c5df105417a8047bb9346ac82cb2",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2555,12 +2555,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:fb29c7c2054b60fc",
+      "message_hash": "sha256:c5d25a0e0be5c49b",
       "occurrence_key": "1",
       "screen_id": "settings/theme@ios"
     },
     {
-      "id": "sha256:1d546d265ac0b6781c7782f3ac96fc58de4a584a06b7e0b1e1187b325e61be33",
+      "id": "sha256:d0f303a95e74276837440ec26980d59698607b9c0abcda08df34b6aa64f3b222",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2569,12 +2569,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:4e22b21adcc50c98",
+      "message_hash": "sha256:52fcb44e5e59ca2a",
       "occurrence_key": "10",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:55cee8c32c936986aec2b05a98143f7dc32b9429541d78f59396d5931fcd0cd9",
+      "id": "sha256:2676fc7def8602acf529439bee0dbe29aaeea9bb5bacc90460914a24db077ed9",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2583,12 +2583,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:85a027432608494d",
+      "message_hash": "sha256:f6e39c7455ee541c",
       "occurrence_key": "11",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:f5aa4037da222055101136a7f7e273ea99f7d4d027d1a9342811e3759e323c3b",
+      "id": "sha256:e27d78d0bc10c2ce00572622fb60c96367b575adef48d052d5fb042d4223ca1c",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2597,12 +2597,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:85a027432608494d",
+      "message_hash": "sha256:f6e39c7455ee541c",
       "occurrence_key": "12",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:c1ba669f165773451bf960a6150d422c0b4231c9f60494389a5e90bc3357dd07",
+      "id": "sha256:b3135643adb5af54881b2ada876312ff99056fc71f3afc44716eea567adb3672",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2611,12 +2611,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b53bcfee3df9b166",
+      "message_hash": "sha256:7e4b54882eb9d491",
       "occurrence_key": "13",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:daea6256ace3b67bbf5add845b4705d5525f44a7c6cd800b7492519e1ef0f5b5",
+      "id": "sha256:662855ac5913ce774bedd61888992a374e6c9ba51595f21342ff9ee67b4b3106",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2625,12 +2625,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b53bcfee3df9b166",
+      "message_hash": "sha256:7e4b54882eb9d491",
       "occurrence_key": "14",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:a586345d2122b5d21b7bca9bf8e1de9bf54419902422accb3e50bf80793837d6",
+      "id": "sha256:0169bbcb1d55bafd5b5ec724c28190a109981517598b14478f596a79cead8472",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2639,12 +2639,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b53bcfee3df9b166",
+      "message_hash": "sha256:7e4b54882eb9d491",
       "occurrence_key": "15",
       "screen_id": "settings/theme@android"
     },
     {
-      "id": "sha256:6d420e125b2491b0ad466270ac5e06a8b2f8b791bc2aa049139b76cfbb0b1849",
+      "id": "sha256:fbc9cf5dd1a5166800bee052ac407d5a6b1eb8ff7e56af700788dd336acb7910",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2653,12 +2653,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b53bcfee3df9b166",
+      "message_hash": "sha256:7e4b54882eb9d491",
       "occurrence_key": "16",
       "screen_id": "settings/theme@ios"
     },
     {
-      "id": "sha256:0761d191a0ace356515f8745fc8a04475f325fbefcf514785b14494e5757fbc6",
+      "id": "sha256:1185975d70629fe6ac5ee37a9e3fd7a307aec30c7b3556302eb7fde94d469a77",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2667,12 +2667,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:cdcf76ddd10c901b",
+      "message_hash": "sha256:80904bd8cd438530",
       "occurrence_key": "17",
       "screen_id": "settings@android"
     },
     {
-      "id": "sha256:457b6eb2f2f67a9764ff7bd2158fab17aeb1c7a1174889940f63f23632c94125",
+      "id": "sha256:ee5f6513011a0c6bfbe843887c6ca622928866b87e9e440c86a6af1e6c9e28f9",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2681,12 +2681,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:cdcf76ddd10c901b",
+      "message_hash": "sha256:80904bd8cd438530",
       "occurrence_key": "18",
       "screen_id": "settings@ios"
     },
     {
-      "id": "sha256:cb1214f7f810fb296505171d13ebbc9e249b5e9c7f8fd54e37f83b26d6d47979",
+      "id": "sha256:a9716d77105af9777668a3ecaf5a76efe90a25f776d5dd6012185b204c664f02",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2695,12 +2695,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:12ce9e3b3e3e3d06",
+      "message_hash": "sha256:87ee5f8029e39108",
       "occurrence_key": "19",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:b8827c7f80f2ef3b4e6e64d5bf015e5f1a4043f166df72def0f03e78bd69ec09",
+      "id": "sha256:e41d0da90107f201f1e6f8e1b41d08593b6651fb7c2f67edf597d996bf457446",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2709,12 +2709,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b91d174d2b0a44cb",
+      "message_hash": "sha256:f5e753efb2a007e8",
       "occurrence_key": "2",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:c93cb7d169d9f6d7c989b968427630de6c52632feb425a516ff9699f0a8c3182",
+      "id": "sha256:c91bfa20410c56251800643f0a2f8ccc00430b7167cb787db02598ef8a05b959",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2723,12 +2723,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:12ce9e3b3e3e3d06",
+      "message_hash": "sha256:87ee5f8029e39108",
       "occurrence_key": "20",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:74b443609381e3fef9d45880c74fabda5fed4df80a9155eda4463bd7c6faa716",
+      "id": "sha256:3e0813ca8c09ad7b984b36ffe47e2015c2b56e71f716d289307788d26cd8c795",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2737,12 +2737,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:ac0c0a99ca9f4f87",
+      "message_hash": "sha256:392f6989ff430370",
       "occurrence_key": "21",
       "screen_id": "settings/board@android"
     },
     {
-      "id": "sha256:e326f3189fa30c37ac9316f9ed94fee743fcf4fa7f4f6da91ef98e4373a5798d",
+      "id": "sha256:5cb4220afda42192869e23f3c8667c7ab93de6228db2127212b723fc9a85c488",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2751,12 +2751,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:ac0c0a99ca9f4f87",
+      "message_hash": "sha256:392f6989ff430370",
       "occurrence_key": "22",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:2267424306b6e75a4371e96fb4b4184ac78ee274d42ed39cb873d9513b5cf1e0",
+      "id": "sha256:28e8457adecbee0a267db42cff48c66f4b3938fd1ad2f6c32329c7ebc0b82b75",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2765,12 +2765,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b91d174d2b0a44cb",
+      "message_hash": "sha256:f5e753efb2a007e8",
       "occurrence_key": "3",
       "screen_id": "settings/board@ios"
     },
     {
-      "id": "sha256:647ad324a11b20ae25b2404a69cd5706ce312f4f57f10d06010cc19e1b67f6fd",
+      "id": "sha256:f716f71e7209d7fae87a089d1d1ce37a70ae37ead2445b4401bc0a2f77753814",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2779,12 +2779,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b91d174d2b0a44cb",
+      "message_hash": "sha256:f5e753efb2a007e8",
       "occurrence_key": "4",
       "screen_id": "settings/theme@android"
     },
     {
-      "id": "sha256:41f8a1e90bc5fe4b6fd71a90502aa1ee540b2acbe1f9de535ce8b1ffe787cdd7",
+      "id": "sha256:338cc92cb1c4878ac76a887d2576dd4260b3b0f1d4363519cfb5f212b8d91e47",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2793,12 +2793,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:b91d174d2b0a44cb",
+      "message_hash": "sha256:f5e753efb2a007e8",
       "occurrence_key": "5",
       "screen_id": "settings/theme@ios"
     },
     {
-      "id": "sha256:c87eececb09ca8fd2bf63f30b71e00131d1ecf4205a84eb6d1173c11e964d3ca",
+      "id": "sha256:34ed3178028b602c0768907b68427beff74d79fe53a21747f22ae23735c138e5",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2807,12 +2807,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:e93220fcd2ecd428",
+      "message_hash": "sha256:7dbb131fc2af0fc1",
       "occurrence_key": "6",
       "screen_id": "settings/theme@android"
     },
     {
-      "id": "sha256:0272025999ef6b924bcf0723259609f914b96409188478f547295f43e8406878",
+      "id": "sha256:7a822af9d7106faec486d9200378bebd305ad823d5ec46cf54c1d449c766b2fe",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2821,12 +2821,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:e93220fcd2ecd428",
+      "message_hash": "sha256:7dbb131fc2af0fc1",
       "occurrence_key": "7",
       "screen_id": "settings/theme@ios"
     },
     {
-      "id": "sha256:6a14c07a605ef4836fbb8a948e9395c3e24b18238cb99de9e4bfb00bb1ddca67",
+      "id": "sha256:0f087fd90a278d80fb06d8dc270698f005bafb0b6ca8721ce1516dc739a55157",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2835,12 +2835,12 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:57d9f7becbb8063b",
+      "message_hash": "sha256:a67ce46e1d756cb7",
       "occurrence_key": "8",
       "screen_id": "settings@android"
     },
     {
-      "id": "sha256:ba6911fbcb91729f07a48354898b3dfe2b4eae69bbfcfe6e20bf1dda0eb7d995",
+      "id": "sha256:462f1b5dbbe1b6cfb48d95589944dcb228c112d8d8f89f8c9a9abbceaf463e3e",
       "rule_id": "flutter/runtime/button-missing-action",
       "layer": "runtime",
       "wcag_criterion": "2.1.1",
@@ -2849,7 +2849,7 @@
       "file_path": "lib/src/widgets/settings.dart",
       "line": 28,
       "column": 12,
-      "message_hash": "sha256:57d9f7becbb8063b",
+      "message_hash": "sha256:a67ce46e1d756cb7",
       "occurrence_key": "9",
       "screen_id": "settings@ios"
     },
