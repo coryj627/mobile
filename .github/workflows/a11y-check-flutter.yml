@@ -47,13 +47,6 @@ jobs:
         run: |
           git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "https://github.com/"
 
-      # Generated code (freezed, json_serializable, l10n) is not committed; the action's
-      # own `flutter pub get` is then a no-op.
-      - name: Code generation
-        run: |
-          flutter pub get
-          dart run build_runner build
-
       - name: Fetch the a11y-check-flutter action
         uses: actions/checkout@v4
         with:
@@ -69,6 +62,8 @@ jobs:
         uses: ./.flutter-a11y
         with:
           ref: main
+          # Generated code (freezed, json_serializable, l10n) is not committed.
+          pre-test: dart run build_runner build
           test-args: test/a11y
 
       - name: Upload SARIF to code scanning
