@@ -454,6 +454,7 @@ class _MessageInputState() extends ConsumerState<_MessageInput> {
   Widget build(BuildContext context) {
     final sendButton = IconButton(
       icon: Icon(readOnly ? Icons.block : Icons.send),
+      tooltip: context.l10n.send,
       onPressed: () {
         final text = controller.text.trim();
         if (text.isNotEmpty) {

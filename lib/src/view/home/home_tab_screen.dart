@@ -579,6 +579,7 @@ class const _EditableWidget({
               if (widget == HomeEditableWidget.quickPairing)
                 IconButton(
                   icon: const Icon(Icons.settings),
+                  tooltip: context.l10n.timeControl,
                   onPressed: () => showTimeControlPicker(context, ref),
                 ),
             ],
