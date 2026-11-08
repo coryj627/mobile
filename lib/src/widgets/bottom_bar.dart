@@ -344,6 +344,7 @@ class const BottomBarGlassButton({
       enabled: onTap != null,
       button: true,
       label: semanticsLabel,
+      onTap: onTap,
       onLongPress: onLongPress,
       excludeSemantics: true,
       child: GestureDetector(
@@ -527,11 +528,13 @@ class const BottomBarButton({
         child: Center(widthFactor: 1.0, child: badge),
       );
 
+      // excludeSemantics drops the child's node: the action must live on this one.
       return Semantics(
         container: true,
         enabled: enabled,
         button: true,
         label: label,
+        onTap: enabled ? onTap : null,
         excludeSemantics: true,
         child: _GlassBottomBarGroupScope.isIn(context)
             // The group's capsule is the button's background.
@@ -598,6 +601,7 @@ class const BottomBarButton({
       enabled: enabled,
       button: true,
       label: label,
+      onTap: enabled ? onTap : null,
       excludeSemantics: true,
       child: Tooltip(
         excludeFromSemantics: true,

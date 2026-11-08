@@ -113,7 +113,11 @@ class _AccountMenuScreenState()
         automaticallyImplyLeading: Theme.of(context).platform == TargetPlatform.iOS,
         actions: [
           if (Theme.of(context).platform != TargetPlatform.iOS)
-            IconButton(icon: const Icon(Icons.close), onPressed: () => Navigator.of(context).pop()),
+            IconButton(
+              icon: const Icon(Icons.close),
+              tooltip: context.l10n.close,
+              onPressed: () => Navigator.of(context).pop(),
+            ),
         ],
       ),
       body: ListView(

@@ -601,7 +601,7 @@ class const _LargeTitle({required final double top, required final Widget title}
                 child: Align(
                   alignment: .bottomLeft,
                   child: Semantics(
-                    header: true,
+                    headingLevel: 1,
                     child: DefaultTextStyle.merge(
                       style: CupertinoTheme.of(context).textTheme.navLargeTitleTextStyle
                           .copyWith(color: ColorScheme.of(context).onSurface),
@@ -862,6 +862,9 @@ class const PlatformAppBar({
   Widget build(BuildContext context, WidgetRef ref) {
     assert(this.actions == null || actionsBuilder == null);
     final actions = actionsBuilder?.call(context, ref) ?? this.actions;
+    // The title is the screen's heading for screen readers (headingLevel: `header: true` alone
+    // is a no-op on iOS and Android since Flutter 3.47).
+    final title = this.title == null ? null : Semantics(headingLevel: 1, child: this.title);
     if (Theme.of(context).platform == TargetPlatform.iOS) {
       // An iOS 26 liquid glass navigation bar, meant to be used by [PlatformScaffold]. Before iOS
       // 26, the same bar with plain buttons.

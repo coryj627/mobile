@@ -25,10 +25,14 @@ class const SettingsListTile({
 }) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // excludeSemantics drops the ListTile's own node, so the action and the enabled
+    // state must be on this Semantics for screen readers to activate the tile.
     return Semantics(
       container: true,
       button: true,
-      label: '$settingsLabel: $settingsValue',
+      enabled: enabled,
+      label: '${settingsLabel.data ?? settingsLabel.semanticsLabel ?? ''}: $settingsValue',
+      onTap: enabled ? onTap : null,
       excludeSemantics: true,
       child: ListTile(
         leading: icon,
@@ -70,20 +74,23 @@ class const SwitchSettingTile({
 }) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: leading,
-      title: _SettingsTitle(title: title),
-      subtitle: subtitle != null
-          ? DefaultTextStyle.merge(
-              style: ListTileTheme.of(context).subtitleTextStyle
-                  ?.copyWith(fontSize: TextTheme.of(context).bodySmall?.fontSize),
-              child: subtitle!,
-            )
-          : null,
-      trailing: Switch.adaptive(
-        value: value,
-        onChanged: onChanged,
-        padding: const EdgeInsets.only(left: 8.0),
+    // One node for the row, as SwitchListTile does: the switch is named by the title.
+    return MergeSemantics(
+      child: ListTile(
+        leading: leading,
+        title: _SettingsTitle(title: title),
+        subtitle: subtitle != null
+            ? DefaultTextStyle.merge(
+                style: ListTileTheme.of(context).subtitleTextStyle
+                    ?.copyWith(fontSize: TextTheme.of(context).bodySmall?.fontSize),
+                child: subtitle!,
+              )
+            : null,
+        trailing: Switch.adaptive(
+          value: value,
+          onChanged: onChanged,
+          padding: const EdgeInsets.only(left: 8.0),
+        ),
       ),
     );
   }

@@ -776,6 +776,7 @@ class const _RunStats(final StormRunStats stats) extends StatelessWidget {
       appBar: PlatformAppBar(
         leading: IconButton(
           icon: const Icon(Icons.close),
+          tooltip: context.l10n.close,
           onPressed: () => Navigator.of(context).pop(),
         ),
         title: const SizedBox.shrink(),
