@@ -578,20 +578,20 @@ packages:
     dependency: transitive
     description:
       path: "packages/flutter_a11y_core"
-      ref: "7b4018c3dad8647cd9e49c5cd2ca23f27e1b1051"
-      resolved-ref: "7b4018c3dad8647cd9e49c5cd2ca23f27e1b1051"
+      ref: a7b908b9290e0e7282fd0d6a32ab09897cb416dd
+      resolved-ref: a7b908b9290e0e7282fd0d6a32ab09897cb416dd
       url: "https://github.com/coryj627/flutter-a11y.git"
     source: git
-    version: "0.1.0"
+    version: "0.2.0"
   flutter_a11y_test:
     dependency: "direct dev"
     description:
       path: "packages/flutter_a11y_test"
-      ref: main
-      resolved-ref: "7b4018c3dad8647cd9e49c5cd2ca23f27e1b1051"
+      ref: "0.2.0"
+      resolved-ref: a7b908b9290e0e7282fd0d6a32ab09897cb416dd
       url: "https://github.com/coryj627/flutter-a11y.git"
     source: git
-    version: "0.1.0"
+    version: "0.2.0"
   flutter_appauth:
     dependency: "direct main"
     description:
