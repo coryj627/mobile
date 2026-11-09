@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.0",
+  "tool_version": "0.2.1",
   "engines": {
-    "static": "0.2.0",
-    "runtime": "0.2.0"
+    "static": "0.2.1",
+    "runtime": "0.2.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-08T20:50:20.596134Z",
-  "updated_at": "2026-11-09T20:28:34.435399Z",
+  "updated_at": "2026-11-09T22:27:01.255754Z",
   "summary": {
     "finding_count": 147,
     "by_severity": {
@@ -1914,7 +1914,7 @@
       "message_hash": "sha256:59ca830cbff9be20"
     },
     {
-      "id": "sha256:ce07094e74aa353d3fc71e0573d26bfd7d2881cb2c61bc82f153e6c090bea238",
+      "id": "sha256:d2550eb4da4089de059dba1f11c75f5eb7616e4db23d328c1d36930a0e4c66dd",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -1923,7 +1923,7 @@
       "file_path": "lib/src/widgets/user.dart",
       "line": 105,
       "column": 12,
-      "message_hash": "sha256:50672e52884b31fc",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "more@android"
     },
     {
