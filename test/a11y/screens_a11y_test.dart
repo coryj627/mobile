@@ -47,11 +47,9 @@ Future<void> audit(
 }) async {
   final app = await makeTestProviderScopeApp(tester, home: home, overrides: overrides);
   await tester.pumpWidget(app);
-  // The suite's own tests pump fixed durations rather than pumpAndSettle: progress
-  // indicators and glass effects animate indefinitely.
-  await tester.pump(const Duration(milliseconds: 100));
-  await tester.pump(const Duration(milliseconds: 200));
-  await tester.pump(const Duration(milliseconds: 200));
+  // No pumpAndSettle (progress indicators and glass effects animate indefinitely)
+  // and no fixed pumps: auditScreen settles running transitions itself, and a
+  // screen that never settles (the four glass tab screens) carries `unsettled`.
   final screenId = '$screen@${platformTag()}';
   final result = await auditScreen(tester, screenId: screenId);
   // ignore: avoid_print

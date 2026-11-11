@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.5.0",
+  "tool_version": "0.5.1",
   "engines": {
-    "static": "0.5.0",
-    "runtime": "0.5.0"
+    "static": "0.5.1",
+    "runtime": "0.5.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-08T20:50:20.596134Z",
-  "updated_at": "2026-11-11T17:43:30.381253Z",
+  "updated_at": "2026-11-11T22:38:17.459929Z",
   "summary": {
     "finding_count": 147,
     "by_severity": {
@@ -1251,19 +1251,6 @@
       "message_hash": "sha256:59ca830cbff9be20"
     },
     {
-      "id": "sha256:c82e59a33a874b643cbc2dbc9f5cb516f38d3ee5302467278912da3055173059",
-      "rule_id": "flutter/runtime/duplicate-interactive-label",
-      "layer": "runtime",
-      "wcag_criterion": "2.4.6",
-      "wcag_guideline": "2.4",
-      "severity": "warning",
-      "file_path": "lib/src/view/clock/clock_tool_screen.dart",
-      "line": 207,
-      "column": 26,
-      "message_hash": "sha256:1993afd6406fecee",
-      "screen_id": "tools/clock@android"
-    },
-    {
       "id": "sha256:6d91be6bde3a34af706ab4663a0fdec1d12c288fbc2991279f0c3cc0fce9a972",
       "rule_id": "flutter/static/gesture-missing-semantics",
       "layer": "static",
@@ -1444,33 +1431,6 @@
       "message_hash": "sha256:a8c97037e805be16"
     },
     {
-      "id": "sha256:433d28449f0afdf69d8e0a06689b252b7d8d6cf5d5c42c635aa918b882a16a91",
-      "rule_id": "flutter/runtime/interactive-missing-role",
-      "layer": "runtime",
-      "wcag_criterion": "4.1.2",
-      "wcag_guideline": "4.1",
-      "severity": "error",
-      "file_path": "lib/src/view/puzzle/puzzle_tab_screen.dart",
-      "line": 155,
-      "column": 15,
-      "message_hash": "sha256:1246417013324ea8",
-      "screen_id": "puzzles@android"
-    },
-    {
-      "id": "sha256:fe14d87b67e258e862591ee3445798e7a09f01b3a5105c9e51293eb8a1e12f00",
-      "rule_id": "flutter/runtime/interactive-missing-role",
-      "layer": "runtime",
-      "wcag_criterion": "4.1.2",
-      "wcag_guideline": "4.1",
-      "severity": "error",
-      "file_path": "lib/src/view/puzzle/puzzle_tab_screen.dart",
-      "line": 155,
-      "column": 15,
-      "message_hash": "sha256:1246417013324ea8",
-      "occurrence_key": "1",
-      "screen_id": "puzzles@ios"
-    },
-    {
       "id": "sha256:a5c828b09f5651a79a4fd760074d770e6f088d8a5071531af5de8a8c769536b9",
       "rule_id": "flutter/static/gesture-missing-semantics",
       "layer": "static",
@@ -1577,6 +1537,33 @@
       "line": 114,
       "column": 30,
       "message_hash": "sha256:5e1a22e09639183c"
+    },
+    {
+      "id": "sha256:8affbe5534e10e305a97b6eb991259dbba245dbc45bf085a52ed7c4f4cfe60ac",
+      "rule_id": "flutter/runtime/interactive-missing-role",
+      "layer": "runtime",
+      "wcag_criterion": "4.1.2",
+      "wcag_guideline": "4.1",
+      "severity": "error",
+      "file_path": "lib/src/widgets/board_preview.dart",
+      "line": 148,
+      "column": 28,
+      "message_hash": "sha256:1246417013324ea8",
+      "screen_id": "puzzles@android"
+    },
+    {
+      "id": "sha256:0e68dbdff9d087b6bfdc585d20605f774789eb6efd3bb8c61a26ea15e8ba9d24",
+      "rule_id": "flutter/runtime/interactive-missing-role",
+      "layer": "runtime",
+      "wcag_criterion": "4.1.2",
+      "wcag_guideline": "4.1",
+      "severity": "error",
+      "file_path": "lib/src/widgets/board_preview.dart",
+      "line": 148,
+      "column": 28,
+      "message_hash": "sha256:1246417013324ea8",
+      "occurrence_key": "1",
+      "screen_id": "puzzles@ios"
     },
     {
       "id": "sha256:a7acbc51f8e8fb70bbb2ba10762092cab4d57318538f94b190b4b889d95e8153",
@@ -1744,6 +1731,19 @@
       "message_hash": "sha256:8d487a80775d2a07",
       "occurrence_key": "9",
       "screen_id": "more@ios"
+    },
+    {
+      "id": "sha256:2429a6a4b06bd3101bfd8664d0bd13851641f85490df056eff5eba547d2281db",
+      "rule_id": "flutter/runtime/duplicate-interactive-label",
+      "layer": "runtime",
+      "wcag_criterion": "2.4.6",
+      "wcag_guideline": "2.4",
+      "severity": "warning",
+      "file_path": "lib/src/widgets/clock.dart",
+      "line": 83,
+      "column": 25,
+      "message_hash": "sha256:1993afd6406fecee",
+      "screen_id": "tools/clock@android"
     },
     {
       "id": "sha256:521710b42107c9bca1b63df892fa916accb45dc93cbf997c5a5cbc2e4458a141",
